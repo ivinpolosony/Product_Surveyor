@@ -1,0 +1,14 @@
+ window.onload = function() {
+//	alert("FFF");
+var obj = document.getElementByClass("ivin");
+console.log(obj);
+obj.onclick=function(){
+	var obj1 = document.getElementById("right_content");
+	console.log(obj1);
+	return false;
+}
+};
+
+     }
+
+

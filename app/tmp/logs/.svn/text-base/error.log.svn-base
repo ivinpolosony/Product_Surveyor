@@ -1,0 +1,2009 @@
+2013-12-30 11:45:53 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 11:48:07 Error: [MissingActionException] Action AdminController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'index',
+)
+Request URL: /admin
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 11:48:34 Error: [MissingViewException] View file "/home/ivin/projects/cakephpOld/app/View/Admin/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ivin/projects/cakephpOld/app/View/Admin/index.ctp',
+)
+Request URL: /admin
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-30 11:54:02 Error: Fatal Error (64): Can't use method return value in write context in [/home/ivin/projects/cakephpOld/app/Controller/AdminController.php, line 5]
+2013-12-30 11:54:02 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /admin
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use metho...', '/home/ivin/proj...', 5)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', '/home/ivin/proj...', 5, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', '/home/ivin/proj...', 5, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 11:57:06 Error: [MissingActionException] Action AdminController::DD() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'DD',
+)
+Request URL: /admin/DD
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 11:57:44 Error: [MissingViewException] View file "/home/ivin/projects/cakephpOld/app/View/Admin/d_d.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ivin/projects/cakephpOld/app/View/Admin/d_d.ctp',
+)
+Request URL: /admin/DD
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-30 11:57:53 Error: [MissingViewException] View file "/home/ivin/projects/cakephpOld/app/View/Admin/d_d.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ivin/projects/cakephpOld/app/View/Admin/d_d.ctp',
+)
+Request URL: /admin/DD
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-30 11:58:22 Error: [MissingViewException] View file "/home/ivin/projects/cakephpOld/app/View/Admin/d_d.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ivin/projects/cakephpOld/app/View/Admin/d_d.ctp',
+)
+Request URL: /admin/DD
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-30 12:02:50 Error: Fatal Error (4): syntax error, unexpected T_STRING in [/home/ivin/projects/cakephpOld/app/View/Admin/index.ctp, line 6]
+2013-12-30 12:02:50 Error: [FatalErrorException] syntax error, unexpected T_STRING
+Request URL: /admin/index
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ivin/proj...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ivin/proj...', 6, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ivin/proj...', 6, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 13:02:04 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /admin/index
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 14:04:18 Error: [MissingViewException] View file "/home/ivin/projects/cakephpOld/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ivin/projects/cakephpOld/app/View/Users/index.ctp',
+)
+Request URL: /Users/index
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-30 14:22:00 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 14:22:03 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /users
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 14:23:13 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 14:28:50 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 14:40:53 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 61]
+2013-12-30 14:40:53 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 61, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 61, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 14:42:40 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 61]
+2013-12-30 14:42:40 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 61, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 61, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 14:46:43 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'created_date' cannot be null
+Request URL: /users/add
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `Iv...', Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `Iv...')
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /home/ivin/projects/cakephpOld/app/Controller/UsersController.php(60): Model->save(Array)
+#5 [internal function]: UsersController->add()
+#6 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-30 14:49:30 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'created_date' cannot be null
+Request URL: /users/add
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `Iv...', Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `Iv...')
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /home/ivin/projects/cakephpOld/app/Controller/UsersController.php(61): Model->save(Array)
+#5 [internal function]: UsersController->add()
+#6 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-30 14:51:09 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'updated_date' cannot be null
+Request URL: /users/add
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `Iv...', Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `Iv...')
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /home/ivin/projects/cakephpOld/app/Controller/UsersController.php(62): Model->save(Array)
+#5 [internal function]: UsersController->add()
+#6 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-30 14:51:20 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'updated_date' cannot be null
+Request URL: /users/add
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `Iv...', Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `Iv...')
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /home/ivin/projects/cakephpOld/app/Controller/UsersController.php(62): Model->save(Array)
+#5 [internal function]: UsersController->add()
+#6 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-30 14:51:28 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'updated_date' cannot be null
+Request URL: /users/add
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `Iv...', Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `Iv...')
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /home/ivin/projects/cakephpOld/app/Controller/UsersController.php(62): Model->save(Array)
+#5 [internal function]: UsersController->add()
+#6 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-30 14:54:19 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'updated_date' cannot be null
+Request URL: /users/add
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `Iv...', Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(1004): DboSource->execute('INSERT INTO `Iv...')
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(1832): DboSource->create(Object(User), Array, Array)
+#4 /home/ivin/projects/cakephpOld/app/Controller/UsersController.php(63): Model->save(Array)
+#5 [internal function]: UsersController->add()
+#6 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-30 15:00:07 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 72]
+2013-12-30 15:00:07 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 72)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 72, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 72, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 15:00:53 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 72]
+2013-12-30 15:00:53 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 72)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 72, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 72, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 15:01:27 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 67]
+2013-12-30 15:01:27 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 67)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 67, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 67, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 15:01:41 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 67]
+2013-12-30 15:01:41 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 67)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 67, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 67, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 15:01:57 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 67]
+2013-12-30 15:01:57 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 67)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 67, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 67, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 15:02:35 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 67]
+2013-12-30 15:02:35 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 67)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 67, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 67, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 15:02:58 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 67]
+2013-12-30 15:02:58 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 67)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 67, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 67, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 15:03:11 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 113]
+2013-12-30 15:03:11 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /users/delete/9
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 113)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 113, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 113, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 15:03:48 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 88]
+2013-12-30 15:03:48 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /users/edit/1
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 88)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 88, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 88, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 15:04:23 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 88]
+2013-12-30 15:04:23 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /users/edit/1
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 88)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 88, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 88, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 15:06:53 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 67]
+2013-12-30 15:06:53 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 67)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 67, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 67, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 15:51:36 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 37]
+2013-12-30 15:51:36 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /users/
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 37, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 37, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 15:53:44 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 15:55:08 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 15:55:09 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 15:55:09 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 15:55:09 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 15:55:12 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 15:55:48 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 15:55:49 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 15:55:49 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 15:55:50 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 15:56:13 Error: [MissingViewException] View file "/home/ivin/projects/cakephpOld/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ivin/projects/cakephpOld/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-30 15:57:56 Error: [MissingViewException] View file "/home/ivin/projects/cakephpOld/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ivin/projects/cakephpOld/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-30 15:58:13 Error: [MissingViewException] View file "/home/ivin/projects/cakephpOld/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ivin/projects/cakephpOld/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-30 15:59:15 Error: Fatal Error (64): Cannot redeclare AppController::$components in [/home/ivin/projects/cakephpOld/app/Controller/AppController.php, line 54]
+2013-12-30 15:59:15 Error: [FatalErrorException] Cannot redeclare AppController::$components
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/ivin/proj...', 54)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/ivin/proj...', 54, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/ivin/proj...', 54, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 16:01:30 Error: Fatal Error (64): Cannot redeclare UsersController::login() in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 59]
+2013-12-30 16:01:30 Error: [FatalErrorException] Cannot redeclare UsersController::login()
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/ivin/proj...', 59)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/ivin/proj...', 59, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/ivin/proj...', 59, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 16:01:57 Error: Fatal Error (64): Cannot redeclare AppController::$components in [/home/ivin/projects/cakephpOld/app/Controller/AppController.php, line 54]
+2013-12-30 16:01:57 Error: [FatalErrorException] Cannot redeclare AppController::$components
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/ivin/proj...', 54)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/ivin/proj...', 54, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/ivin/proj...', 54, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 16:02:37 Error: Fatal Error (64): Cannot redeclare AppController::$components in [/home/ivin/projects/cakephpOld/app/Controller/AppController.php, line 54]
+2013-12-30 16:02:37 Error: [FatalErrorException] Cannot redeclare AppController::$components
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/ivin/proj...', 54)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/ivin/proj...', 54, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/ivin/proj...', 54, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 16:03:09 Error: Fatal Error (64): Cannot redeclare AppController::$components in [/home/ivin/projects/cakephpOld/app/Controller/AppController.php, line 54]
+2013-12-30 16:03:09 Error: [FatalErrorException] Cannot redeclare AppController::$components
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/ivin/proj...', 54)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/ivin/proj...', 54, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/ivin/proj...', 54, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 16:03:29 Error: Fatal Error (64): Cannot redeclare AppController::$components in [/home/ivin/projects/cakephpOld/app/Controller/AppController.php, line 54]
+2013-12-30 16:03:29 Error: [FatalErrorException] Cannot redeclare AppController::$components
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/ivin/proj...', 54)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/ivin/proj...', 54, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/ivin/proj...', 54, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 16:04:37 Error: Fatal Error (64): Cannot redeclare AppController::$components in [/home/ivin/projects/cakephpOld/app/Controller/AppController.php, line 54]
+2013-12-30 16:04:37 Error: [FatalErrorException] Cannot redeclare AppController::$components
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/ivin/proj...', 54)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/ivin/proj...', 54, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/ivin/proj...', 54, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 16:04:37 Error: Fatal Error (64): Cannot redeclare AppController::$components in [/home/ivin/projects/cakephpOld/app/Controller/AppController.php, line 54]
+2013-12-30 16:04:37 Error: [FatalErrorException] Cannot redeclare AppController::$components
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/ivin/proj...', 54)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/ivin/proj...', 54, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/ivin/proj...', 54, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 16:04:37 Error: Fatal Error (64): Cannot redeclare AppController::$components in [/home/ivin/projects/cakephpOld/app/Controller/AppController.php, line 54]
+2013-12-30 16:04:37 Error: [FatalErrorException] Cannot redeclare AppController::$components
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/ivin/proj...', 54)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/ivin/proj...', 54, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/ivin/proj...', 54, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 16:05:16 Error: [MissingViewException] View file "/home/ivin/projects/cakephpOld/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ivin/projects/cakephpOld/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-30 16:05:46 Error: [MissingViewException] View file "/home/ivin/projects/cakephpOld/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ivin/projects/cakephpOld/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-30 16:06:51 Error: [MissingViewException] View file "/home/ivin/projects/cakephpOld/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ivin/projects/cakephpOld/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-30 16:08:11 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 7]
+2013-12-30 16:08:11 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 7, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 7, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 16:08:15 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 7]
+2013-12-30 16:08:15 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /users/
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 7, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 7, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 16:08:39 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 7]
+2013-12-30 16:08:39 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /users/
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 7, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 7, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 16:08:42 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 7]
+2013-12-30 16:08:42 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /users/add
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 7, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 7, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 16:10:15 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /users/
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 16:10:27 Error: [MissingViewException] View file "/home/ivin/projects/cakephpOld/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ivin/projects/cakephpOld/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-30 16:11:06 Error: [MissingViewException] View file "/home/ivin/projects/cakephpOld/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ivin/projects/cakephpOld/app/View/Users/login.ctp',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-30 16:11:10 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /users/
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 16:12:06 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /users/
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 16:12:18 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#5 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#6 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(112): Model->find('first', Array)
+#7 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(81): BaseAuthenticate->_findUser('ivin', 'd')
+#8 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(750): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(597): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /home/ivin/projects/cakephpOld/app/Controller/UsersController.php(15): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2013-12-30 16:13:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#5 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#6 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(112): Model->find('first', Array)
+#7 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(81): BaseAuthenticate->_findUser('ivin', 'd')
+#8 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(750): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(597): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /home/ivin/projects/cakephpOld/app/Controller/UsersController.php(15): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2013-12-30 16:14:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#5 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#6 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(112): Model->find('first', Array)
+#7 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(81): BaseAuthenticate->_findUser('ivin', 'd')
+#8 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(750): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(597): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /home/ivin/projects/cakephpOld/app/Controller/UsersController.php(15): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2013-12-30 16:14:53 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /users/
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 16:42:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#5 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#6 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(112): Model->find('first', Array)
+#7 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(81): BaseAuthenticate->_findUser('ivinpolosony@gm...', 'df')
+#8 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(750): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(597): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /home/ivin/projects/cakephpOld/app/Controller/UsersController.php(15): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2013-12-30 16:42:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#5 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#6 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(112): Model->find('first', Array)
+#7 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(81): BaseAuthenticate->_findUser('ivinpolosony@gm...', 'df')
+#8 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(750): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(597): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /home/ivin/projects/cakephpOld/app/Controller/UsersController.php(15): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2013-12-30 16:44:17 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#5 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#6 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(112): Model->find('first', Array)
+#7 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(81): BaseAuthenticate->_findUser('ivinpolosony@gm...', 'df')
+#8 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(750): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(597): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /home/ivin/projects/cakephpOld/app/Controller/UsersController.php(15): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2013-12-30 16:46:34 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 17]
+2013-12-30 16:46:34 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ivin/proj...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ivin/proj...', 17, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ivin/proj...', 17, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 16:46:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#5 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#6 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(112): Model->find('first', Array)
+#7 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(81): BaseAuthenticate->_findUser('ivinpolosony@gm...', 'df')
+#8 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(750): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(597): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /home/ivin/projects/cakephpOld/app/Controller/UsersController.php(15): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2013-12-30 16:48:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#5 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#6 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(112): Model->find('first', Array)
+#7 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(81): BaseAuthenticate->_findUser('ivinpolosony@gm...', 'df')
+#8 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(750): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(597): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /home/ivin/projects/cakephpOld/app/Controller/UsersController.php(15): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2013-12-30 17:22:21 Error: [MissingActionException] Action UsersController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'add',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 17:24:25 Error: [MissingActionException] Action UsersController::login23() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login23',
+)
+Request URL: /users/login23
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 17:30:21 Error: Fatal Error (64): Cannot redeclare AppController::$components in [/home/ivin/projects/cakephpOld/app/Controller/AppController.php, line 49]
+2013-12-30 17:30:21 Error: [FatalErrorException] Cannot redeclare AppController::$components
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/ivin/proj...', 49)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/ivin/proj...', 49, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/ivin/proj...', 49, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 17:30:35 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 10]
+2013-12-30 17:30:35 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 10, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 10, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 17:31:44 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 17:43:19 Error: Fatal Error (64): Cannot redeclare UsersController::$helpers in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 38]
+2013-12-30 17:43:19 Error: [FatalErrorException] Cannot redeclare UsersController::$helpers
+Request URL: /users
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/ivin/proj...', 38)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/ivin/proj...', 38, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/ivin/proj...', 38, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 17:44:01 Error: Fatal Error (64): Cannot redeclare UsersController::$helpers in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 38]
+2013-12-30 17:44:01 Error: [FatalErrorException] Cannot redeclare UsersController::$helpers
+Request URL: /users/index
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/ivin/proj...', 38)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/ivin/proj...', 38, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/ivin/proj...', 38, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 17:44:05 Error: Fatal Error (64): Cannot redeclare UsersController::$helpers in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 38]
+2013-12-30 17:44:05 Error: [FatalErrorException] Cannot redeclare UsersController::$helpers
+Request URL: /users/add
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/ivin/proj...', 38)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/ivin/proj...', 38, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/ivin/proj...', 38, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 17:44:19 Error: Fatal Error (64): Cannot redeclare UsersController::$helpers in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 38]
+2013-12-30 17:44:19 Error: [FatalErrorException] Cannot redeclare UsersController::$helpers
+Request URL: /users/add
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/ivin/proj...', 38)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/ivin/proj...', 38, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/ivin/proj...', 38, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 17:44:40 Error: [MissingActionException] Action UsersController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'add',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-30 17:45:09 Error: Fatal Error (64): Cannot redeclare UsersController::$helpers in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 38]
+2013-12-30 17:45:09 Error: [FatalErrorException] Cannot redeclare UsersController::$helpers
+Request URL: /users/
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/ivin/proj...', 38)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/ivin/proj...', 38, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/ivin/proj...', 38, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 17:45:45 Error: Fatal Error (64): Cannot redeclare UsersController::$helpers in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 38]
+2013-12-30 17:45:45 Error: [FatalErrorException] Cannot redeclare UsersController::$helpers
+Request URL: /users/
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/ivin/proj...', 38)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/ivin/proj...', 38, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/ivin/proj...', 38, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 17:45:58 Error: Fatal Error (64): Cannot redeclare UsersController::$helpers in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 38]
+2013-12-30 17:45:58 Error: [FatalErrorException] Cannot redeclare UsersController::$helpers
+Request URL: /users/
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/home/ivin/proj...', 38)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/home/ivin/proj...', 38, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/home/ivin/proj...', 38, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 17:49:08 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ivin/projects/cakephpOld/app/View/Users/login.ctp, line 3]
+2013-12-30 17:49:08 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 3, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 3, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 17:49:46 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ivin/projects/cakephpOld/app/View/Users/login.ctp, line 3]
+2013-12-30 17:49:46 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 3, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 3, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 17:51:05 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ivin/projects/cakephpOld/app/View/Users/login.ctp, line 3]
+2013-12-30 17:51:05 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 3, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 3, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 17:51:05 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ivin/projects/cakephpOld/app/View/Users/login.ctp, line 3]
+2013-12-30 17:51:05 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 3, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 3, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 17:51:06 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ivin/projects/cakephpOld/app/View/Users/login.ctp, line 3]
+2013-12-30 17:51:06 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 3, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 3, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 17:51:45 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ivin/projects/cakephpOld/app/View/Users/index.ctp, line 3]
+2013-12-30 17:51:45 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users/
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 3, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 3, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 17:52:09 Error: Fatal Error (1): Call to a member function input() on a non-object in [/home/ivin/projects/cakephpOld/app/View/Users/index.ctp, line 6]
+2013-12-30 17:52:09 Error: [FatalErrorException] Call to a member function input() on a non-object
+Request URL: /users/
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 6)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 6, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 6, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 17:53:02 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 62]
+2013-12-30 17:53:02 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 62)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 62, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 62, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 17:55:59 Error: [MissingControllerException] Controller class ControllerNameController could not be found.
+Exception Attributes: array (
+  'class' => 'ControllerNameController',
+  'plugin' => NULL,
+)
+Request URL: /Controller_name/Action_name
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 17:56:15 Error: [MissingControllerException] Controller class ControllerNameController could not be found.
+Exception Attributes: array (
+  'class' => 'ControllerNameController',
+  'plugin' => NULL,
+)
+Request URL: /Controller_name/Action_name
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 17:57:22 Error: [MissingControllerException] Controller class ControllerNameController could not be found.
+Exception Attributes: array (
+  'class' => 'ControllerNameController',
+  'plugin' => NULL,
+)
+Request URL: /Controller_name/Action_name
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 17:57:27 Error: [MissingControllerException] Controller class UserControllerController could not be found.
+Exception Attributes: array (
+  'class' => 'UserControllerController',
+  'plugin' => NULL,
+)
+Request URL: /UserController
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 17:57:41 Error: [MissingControllerException] Controller class UserControllerController could not be found.
+Exception Attributes: array (
+  'class' => 'UserControllerController',
+  'plugin' => NULL,
+)
+Request URL: /UserController
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 17:57:45 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /User
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 17:58:01 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /User
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 17:58:20 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /User
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-30 18:12:50 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 22]
+2013-12-30 18:12:50 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /Users
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 22, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 22, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 18:13:33 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 22]
+2013-12-30 18:13:33 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /Users/index
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 22, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 22, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 18:14:51 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 13]
+2013-12-30 18:14:51 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE, expecting T_FUNCTION
+Request URL: /Users/index
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ivin/proj...', 13)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ivin/proj...', 13, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ivin/proj...', 13, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 18:15:24 Error: Fatal Error (1): Call to a member function check() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 30]
+2013-12-30 18:15:24 Error: [FatalErrorException] Call to a member function check() on a non-object
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 30, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 30, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 18:16:47 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 35]
+2013-12-30 18:16:47 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 35, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 35, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 18:17:22 Error: Fatal Error (1): Call to a member function check() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 43]
+2013-12-30 18:17:22 Error: [FatalErrorException] Call to a member function check() on a non-object
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 43, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 43, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 18:17:50 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#5 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#6 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(112): Model->find('first', Array)
+#7 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(81): BaseAuthenticate->_findUser('d', 'd')
+#8 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(750): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(597): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /home/ivin/projects/cakephpOld/app/Controller/UsersController.php(49): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2013-12-30 18:23:15 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#5 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#6 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(112): Model->find('first', Array)
+#7 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(81): BaseAuthenticate->_findUser('adfs', 'adf')
+#8 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(750): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(597): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /home/ivin/projects/cakephpOld/app/Controller/UsersController.php(49): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2013-12-30 18:54:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#5 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#6 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(597): Model->find('first', Array)
+#7 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(800): DboSource->query('findByUsername', Array, Object(User))
+#8 /home/ivin/projects/cakephpOld/app/Controller/UsersController.php(42): Model->__call('findByUsername', Array)
+#9 /home/ivin/projects/cakephpOld/app/Controller/UsersController.php(42): User->findByUsername(NULL)
+#10 [internal function]: UsersController->login()
+#11 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#12 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#14 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2013-12-30 18:55:06 Error: Fatal Error (1): Call to a member function findByUsername() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 42]
+2013-12-30 18:55:06 Error: [FatalErrorException] Call to a member function findByUsername() on a non-object
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 42, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 42, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 18:55:55 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 42]
+2013-12-30 18:55:55 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 42, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 42, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 18:56:14 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 42]
+2013-12-30 18:56:14 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 42, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 42, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 18:56:15 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 42]
+2013-12-30 18:56:15 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 42, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 42, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 18:56:16 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/ivin/projects/cakephpOld/app/Controller/UsersController.php, line 42]
+2013-12-30 18:56:16 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 42, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 42, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-30 19:07:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.14' in 'field list'
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#5 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2872): Model->_readDataSource('all', Array)
+#6 /home/ivin/projects/cakephpOld/app/Controller/UsersController.php(42): Model->find('all', Array)
+#7 [internal function]: UsersController->login()
+#8 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-12-31 11:59:52 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-31 12:00:02 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /users
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-31 12:02:06 Error: [MissingViewException] View file "/home/ivin/projects/cakephpOld/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ivin/projects/cakephpOld/app/View/Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-31 12:02:46 Error: [MissingViewException] View file "/home/ivin/projects/cakephpOld/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ivin/projects/cakephpOld/app/View/Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-31 12:02:47 Error: [MissingViewException] View file "/home/ivin/projects/cakephpOld/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ivin/projects/cakephpOld/app/View/Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-31 12:02:47 Error: [MissingViewException] View file "/home/ivin/projects/cakephpOld/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ivin/projects/cakephpOld/app/View/Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-31 12:02:47 Error: [MissingViewException] View file "/home/ivin/projects/cakephpOld/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/ivin/projects/cakephpOld/app/View/Users/index.ctp',
+)
+Request URL: /users
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-31 12:08:25 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/ivin/projects/cakephpOld/app/View/Users/index.ctp, line 2]
+2013-12-31 12:08:25 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /users
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/ivin/proj...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/ivin/proj...', 2, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/ivin/proj...', 2, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-31 12:27:34 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:27:38 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:27:44 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:28:15 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:28:18 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:28:49 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:28:49 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:28:49 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:28:49 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:28:49 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:28:49 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:28:49 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:28:49 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:28:49 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:28:49 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:28:49 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:28:49 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:28:50 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:28:50 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:28:50 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:28:50 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:28:50 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:28:50 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:28:50 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:28:56 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:29:33 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 12:30:43 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 14:31:42 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 14:31:47 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 14:31:54 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 14:32:00 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-31 14:49:59 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#5 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#6 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(112): Model->find('first', Array)
+#7 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(81): BaseAuthenticate->_findUser('dsd', 'sd')
+#8 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(750): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(597): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /home/ivin/projects/cakephpOld/app/Controller/UsersController.php(33): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2013-12-31 14:50:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#5 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#6 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(112): Model->find('first', Array)
+#7 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(81): BaseAuthenticate->_findUser('dsd', 'd')
+#8 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(750): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(597): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /home/ivin/projects/cakephpOld/app/Controller/UsersController.php(33): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2013-12-31 14:52:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.username' in 'where clause'
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(665): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2900): DboSource->read(Object(User), Array)
+#5 /home/ivin/projects/cakephpOld/lib/Cake/Model/Model.php(2872): Model->_readDataSource('first', Array)
+#6 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(112): Model->find('first', Array)
+#7 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(81): BaseAuthenticate->_findUser('dsd', 'd')
+#8 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(750): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Component/AuthComponent.php(597): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /home/ivin/projects/cakephpOld/app/Controller/UsersController.php(33): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 /home/ivin/projects/cakephpOld/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /home/ivin/projects/cakephpOld/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2013-12-31 14:56:41 Error: Fatal Error (4): syntax error, unexpected T_ECHO in [/home/ivin/projects/cakephpOld/app/View/Users/login.ctp, line 8]
+2013-12-31 14:56:41 Error: [FatalErrorException] syntax error, unexpected T_ECHO
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ivin/proj...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ivin/proj...', 8, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ivin/proj...', 8, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-31 14:56:50 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/ivin/projects/cakephpOld/app/View/Users/login.ctp, line 6]
+2013-12-31 14:56:50 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /users/login
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ivin/proj...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ivin/proj...', 6, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ivin/proj...', 6, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-31 17:35:41 Error: Fatal Error (4): syntax error, unexpected '{' in [/home/ivin/projects/cakephpOld/app/Model/User.php, line 97]
+2013-12-31 17:35:41 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /users
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ivin/proj...', 97)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ivin/proj...', 97, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ivin/proj...', 97, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-31 17:35:59 Error: Fatal Error (4): syntax error, unexpected ':' in [/home/ivin/projects/cakephpOld/app/Model/User.php, line 98]
+2013-12-31 17:35:59 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /users
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ivin/proj...', 98)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ivin/proj...', 98, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ivin/proj...', 98, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-31 17:36:00 Error: Fatal Error (4): syntax error, unexpected ':' in [/home/ivin/projects/cakephpOld/app/Model/User.php, line 98]
+2013-12-31 17:36:00 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /users
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ivin/proj...', 98)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ivin/proj...', 98, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ivin/proj...', 98, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-31 17:36:00 Error: Fatal Error (4): syntax error, unexpected ':' in [/home/ivin/projects/cakephpOld/app/Model/User.php, line 98]
+2013-12-31 17:36:00 Error: [FatalErrorException] syntax error, unexpected ':'
+Request URL: /users
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ivin/proj...', 98)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ivin/proj...', 98, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ivin/proj...', 98, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-31 18:13:36 Error: [MissingControllerException] Controller class ProductController could not be found.
+Exception Attributes: array (
+  'class' => 'ProductController',
+  'plugin' => NULL,
+)
+Request URL: /product
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-02 15:00:43 Error: Fatal Error (4): syntax error, unexpected T_ELSE in [/home/ivin/projects/cakephpOld/app/View/Layouts/default.ctp, line 48]
+2014-01-02 15:00:43 Error: [FatalErrorException] syntax error, unexpected T_ELSE
+Request URL: /products/
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ivin/proj...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ivin/proj...', 48, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ivin/proj...', 48, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 15:04:32 Error: Fatal Error (4): syntax error, unexpected T_ELSE in [/home/ivin/projects/cakephpOld/app/View/Layouts/default.ctp, line 48]
+2014-01-02 15:04:32 Error: [FatalErrorException] syntax error, unexpected T_ELSE
+Request URL: /products/
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ivin/proj...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ivin/proj...', 48, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ivin/proj...', 48, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 15:04:33 Error: Fatal Error (4): syntax error, unexpected T_ELSE in [/home/ivin/projects/cakephpOld/app/View/Layouts/default.ctp, line 48]
+2014-01-02 15:04:33 Error: [FatalErrorException] syntax error, unexpected T_ELSE
+Request URL: /products/
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ivin/proj...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ivin/proj...', 48, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ivin/proj...', 48, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 15:04:33 Error: Fatal Error (4): syntax error, unexpected T_ELSE in [/home/ivin/projects/cakephpOld/app/View/Layouts/default.ctp, line 48]
+2014-01-02 15:04:33 Error: [FatalErrorException] syntax error, unexpected T_ELSE
+Request URL: /products/
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ivin/proj...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ivin/proj...', 48, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ivin/proj...', 48, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-01-02 15:04:33 Error: Fatal Error (4): syntax error, unexpected T_ELSE in [/home/ivin/projects/cakephpOld/app/View/Layouts/default.ctp, line 48]
+2014-01-02 15:04:33 Error: [FatalErrorException] syntax error, unexpected T_ELSE
+Request URL: /products/
+Stack Trace:
+#0 /home/ivin/projects/cakephpOld/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ivin/proj...', 48)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ivin/proj...', 48, Array)
+#2 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ivin/proj...', 48, Array)
+#3 /home/ivin/projects/cakephpOld/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

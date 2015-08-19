@@ -1,0 +1,33 @@
+2014-01-02 16:57:05 Notice: Notice (8): Undefined variable: data in [/home/ivin/projects/cakephpOld/app/View/Products/edit.ctp, line 18]
+Trace:
+include - APP/View/Products/edit.ctp, line 18
+View::_evaluate() - CORE/Cake/View/View.php, line 929
+View::_render() - CORE/Cake/View/View.php, line 891
+View::render() - CORE/Cake/View/View.php, line 460
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-01-02 16:57:19 Notice: Notice (8): Undefined variable: data in [/home/ivin/projects/cakephpOld/app/View/Products/edit.ctp, line 18]
+Trace:
+include - APP/View/Products/edit.ctp, line 18
+View::_evaluate() - CORE/Cake/View/View.php, line 929
+View::_render() - CORE/Cake/View/View.php, line 891
+View::render() - CORE/Cake/View/View.php, line 460
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+
+2014-01-03 11:11:27 Notice: Notice (8): Undefined index: Product in [/home/ivin/projects/cakephpOld/app/View/Products/show_image.ctp, line 4]
+Trace:
+include - APP/View/Products/show_image.ctp, line 4
+View::_evaluate() - CORE/Cake/View/View.php, line 929
+View::_render() - CORE/Cake/View/View.php, line 891
+View::render() - CORE/Cake/View/View.php, line 460
+Controller::render() - CORE/Cake/Controller/Controller.php, line 952
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 160
+[main] - APP/webroot/index.php, line 108
+

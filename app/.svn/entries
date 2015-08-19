@@ -1,0 +1,132 @@
+10
+
+dir
+3700
+svn://192.168.1.184/induction/ivin/cakephp/app
+svn://192.168.1.184
+
+
+
+2014-01-02T09:29:11.107854Z
+3694
+ivin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1305bdd1-ac45-466d-84aa-67b6de96bd4a
+
+Locale
+dir
+
+Test
+dir
+
+Model
+dir
+
+tmp
+dir
+
+webroot
+dir
+
+Console
+dir
+
+Controller
+dir
+
+Config
+dir
+
+Lib
+dir
+
+View
+dir
+
+.htaccess
+file
+
+
+
+
+2014-01-06T08:19:52.017466Z
+a2a9efe935decfd5f498bf0d83075574
+2014-01-02T09:29:11.107854Z
+3694
+ivin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+140
+
+Vendor
+dir
+
+index.php
+file
+
+
+
+
+2014-01-06T08:19:52.017466Z
+32f7ef8d62a60725e277af92b1fc836e
+2014-01-02T09:29:11.107854Z
+3694
+ivin
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+695
+
+Plugin
+dir
+
