@@ -1,2 +1,1 @@
-
-# cakephpRepo for Product and Market survey scrapper
+A product promotion and review system based on trend analysis (Predictive modeling using decision tree).
